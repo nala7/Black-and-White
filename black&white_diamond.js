@@ -68,7 +68,7 @@ function draw() {
   let maskedLayer = topLayer.get(); 
   maskedLayer.mask(maskGraphics);
 
-  // Draw the masked top layer
+//   // Draw the masked top layer
   image(maskedLayer, 0, 0);
   noStroke();
   triangle(0, 0, halfWidth, 0, 0, halfWidth);
